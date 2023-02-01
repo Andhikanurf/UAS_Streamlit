@@ -12,7 +12,7 @@ st.write("(ANDHIKA NUR FIRDAUS -- 2019230061)")
 
 img = Image.open ('iris.png')
 st.image(img, use_column_width=False)
-st.write("ISI SEMUA NILAI DIBAWAH INI UNTUK MENDAPATKAN PREDIKSI:")
+st.write(**"ISI SEMUA NILAI DIBAWAH INI UNTUK MENDAPATKAN PREDIKSI:"**)
 
 SepalLengthCm = st.slider('SepalLengthCm:', 2.0, 6.0)
 SepalWidthCm = st.slider('SepalWidthCm:', 0.0, 5.0)
