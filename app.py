@@ -8,7 +8,7 @@ from sklearn.svm import SVC
 model = pickle.load(open('model.pkl', 'rb'))
 
 st.header("IRIS CLASSIFICATION")
-st.write("ANDHIKA NUR FIRDAUS -- 2019230061")
+st.write("(ANDHIKA NUR FIRDAUS -- 2019230061)")
 
 img = Image.open ('iris.png')
 st.image(img, use_column_width=False)
