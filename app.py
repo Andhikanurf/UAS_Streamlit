@@ -8,8 +8,7 @@ from sklearn.svm import SVC
 model = pickle.load(open('model.pkl', 'rb'))
 
 st.header("IRIS CLASSIFICATION PREDICTION")
-st.write("NAMA : SASKIA BINTANG MAHARANI")
-st.write("NIM : 2019230047")
+st.write("ANDHIKA NUR FIRDAUS -- 2019230061")
 
 img = Image.open ('iris.png')
 st.image(img, use_column_width=False)
@@ -27,8 +26,6 @@ data = {'SepalLengthCm': SepalLengthCm,
         'PetalWidthCm': PetalWidthCm}
 
 features = pd.DataFrame(data, index=[0])
-
-species = {'Iris Setosa', 'Iris Versicolor', 'Iris Virginica'}
 
 st.subheader('Parameter Inputan')
 st.write(features)
